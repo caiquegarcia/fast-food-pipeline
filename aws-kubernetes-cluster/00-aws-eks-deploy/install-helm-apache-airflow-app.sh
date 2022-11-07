@@ -1,0 +1,1 @@
+helm install apache-airflow apache-airflow/airflow -f aws-kubernetes-cluster/01-apache-airflow/fast-food-airflow-chart-values.yaml -n apache-airflow --debug

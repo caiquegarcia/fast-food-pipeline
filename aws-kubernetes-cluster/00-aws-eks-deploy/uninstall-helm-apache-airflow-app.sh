@@ -1,0 +1,1 @@
+helm uninstall apache-airflow -n apache-airflow
