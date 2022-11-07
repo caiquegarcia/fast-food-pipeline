@@ -1,0 +1,1 @@
+eksctl delete cluster --name FastFoodKubernetesCluster --region ca-central-1

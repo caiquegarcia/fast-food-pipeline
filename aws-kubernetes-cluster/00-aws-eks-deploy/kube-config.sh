@@ -1,0 +1,1 @@
+eksctl utils write-kubeconfig -c FastFoodKubernetesCluster -r ca-central-1

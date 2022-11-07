@@ -1,0 +1,1 @@
+eksctl create cluster --name= FastFoodKubernetesCluster -–managed -–instance-types=m5.xlarge --spot --nodes-min=2 -–nodes-max=3 --region=ca-central-1 --alb-ingress-access --asg-access --node-private-networking --full-ecr-access --nodegroup-name=FastFoodKubernetesClusterNodeGroup
