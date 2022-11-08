@@ -1,9 +1,9 @@
--- DDL: TABELA DE PRODUTOS
--- Criado por Caique Garcia em 08/11/2022
+-- DDL: PRODUCS TABLE
+-- Created by Caique Garcia on 08/11/2022
 
-DROP TABLE IF EXISTS tb_produtos;
+DROP TABLE IF EXISTS tb_products;
 
-CREATE TABLE tb_produtos (
+CREATE TABLE tb_products (
 		product_id char(11) primary key,
 		product_name varchar(255) not null,
 		product_size varchar(100) not null,
